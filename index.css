@@ -2,15 +2,15 @@
     width: 780px;
     margin: auto;
     font-size: 16px;
-    font-size: 'Source sans Pro', Calibri,Tahoma,sans-serif;
+    font-family: 'Source sans Pro',Calibri, Tahoma, sans-serif;
 }
 .infophoto{
-    height: 400px;
+    height: 250px;
 }
 .info{
     float: left;
 }
-.info{
+.photo{
     float: right;
 }
 .section{
@@ -26,12 +26,12 @@ strong{
     font-size: 26px;
 }
 .section{
-    margin-bottom: 70px
-    text-align : justify;
+    margin-bottom: 70px;
+    text-align: justify;
 }
 h2{
     font-size: 28px;
-    color: : #3388BB;
+    color: #3388BB;
     text-transform: uppercase;
     border-bottom: 3px solid #3388DD;
 }
@@ -39,11 +39,6 @@ h2{
     float: left;
     font-weight: bold;
     font-size: 20px;
-}
-.duree{
-    font-weight: normal;
-    font-style: italic;
-    font-size: 16px;
 }
 .sec-droite{
     margin-left: 150px;
@@ -53,9 +48,15 @@ h2{
     font-size: 20px;
 }
 #forma-gauche p{
-    margin-bottom: 37px;
+    margin-bottom: 37;
 }
 .sec-droite{
     margin-left: 150px;
-    margin-top: 37px;
+    margin-top: 37;
+}
+#exp-gauche p{
+    margin-top: 32px;
+}
+body{
+    background-color: #CCCCCC;
 }
